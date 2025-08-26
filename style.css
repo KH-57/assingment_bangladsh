@@ -1,0 +1,349 @@
+body{
+  background-color: #F1F1F3;
+}
+
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+    /* nav bar section */
+        .header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 10px 20px;
+         
+      
+          
+        }
+    
+        .title {
+          font-size: 24px;
+          font-weight: bold;
+          color: #333;
+          
+        }
+    
+        .sign-in-btn {
+          padding: 5px 15px;
+          font-size: 14px;
+         
+          color: #0b8f10;
+          
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+    
+        .sign-in-btn:hover {
+          background-color: #45a049;
+        
+        }
+ 
+    /* same style */
+    
+    .btncolor{
+      background-color: #006A50;
+    }
+    .btn{
+     
+      font-weight:600px ;
+      color:#FFFFFF ;
+      border-radius: 8px;
+      height: 40px;
+      border: none;
+    
+      gap: 50px;
+    }
+
+main{
+  margin: 0 130px;
+  font-family: Fira Sans;
+
+}
+.banar{
+  background-color:#C6E4D6 ;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  
+  
+  
+}
+#bnridea{
+  font-weight: bold;
+  /* font-size: 50px; */
+}
+#bn{
+  color: #0e0e0e6c ;
+}
+.banarcontent{
+  height: 326px;
+  width: 622px;
+  padding-left:60px ;
+}
+.banarimg{
+height: 400px;
+width: 474px;
+
+}
+.piller{
+  font-weight: 800px;
+ 
+}
+.pillerparent{
+  display: flex;
+  gap: 32px;
+}
+.pillers{
+  padding: 24px;
+  margin-right: 24px; 
+  background-color:#FFFFFF ;
+  border-radius: 16px;
+}
+#thevision h1{
+font-weight: bold;
+color: #0E0E0E;
+
+}
+#thevision p{
+  font: weight 360px; ;
+
+}
+.piller1{
+    padding: 24px;
+      margin-right: 24px;
+      background-color: #548ff54b;
+      border-radius: 16px;
+}
+.piller2 {
+  padding: 24px;
+  margin-right: 24px;
+  background-color: #C6E4D6;
+  border-radius: 16px;
+}
+.piller3{
+  padding: 24px;
+  margin-right: 24px;
+  background-color: #F7EBCF;
+  border-radius: 16px;
+}
+.piller1 button{
+  background-color:#5490F5 ;
+  border: none;
+  border-radius: 8px;
+}
+.piller2 button {
+  background-color: #09A15C;
+    border: none;
+      border-radius: 8px;
+}
+.piller3 button {
+  background-color: #FFC239;
+    border: none;
+      border-radius: 8px;
+}
+#y{
+margin-top: 32px ;
+margin-bottom: 32px;
+background-color: #FFFFFF;
+padding: 24px;
+border-radius: 12px;
+}
+#yunous{
+  background-image: url(./assets/quote-bg.png);
+  background-repeat: no-repeat;
+  
+}
+.yd{
+  padding: 10px 0px;
+}
+.ydp{
+  color:#0e0e0ec0 ;
+}
+.yd h4{
+  font-weight:600px ;
+}
+#dr.honer{
+  color: #0e0e0e9a;
+}
+.newscontent{
+  background-color:#FFFFFF ;
+  display: flex;
+  border-radius: 20px;
+  margin: 15px 0px;
+  
+
+}
+.newsimg{
+  height: 300px;
+  width: 400px;
+  border-radius: 20px;
+  /* background-color: #5490F5; */
+  background-image: url(./assets/satelite.png);
+  margin: 30px;
+
+  
+}
+.nwc{
+  height: 314px;
+  padding: 48px;
+  
+}
+#donate:hover{
+  background-color: bisque;
+
+}
+#donate{
+  margin:0 30px ;
+
+  justify-content: center;
+  align-items: center;
+}
+#donate_in_div{
+  margin: 0 40px;
+}
+#ddh1{
+  text-align: center;
+}
+#ddp{
+  text-align: center;
+}
+.btndiv{
+display: flex;
+justify-content: space-evenly;
+  
+}
+
+.bttk{
+  background-color:#FFFFFF ;
+  font-weight: bold;
+  border: none;
+  font-size:medium;
+  border-radius: 8px;
+  height: 120px;
+  width: 200px;
+  margin: 10px;
+  
+
+
+}
+.bttk:hover{
+  background-color: rgba(128, 255, 0, 0.781);
+
+}
+.btninput{
+  
+  align-items: center;
+  justify-content: center;
+}
+
+.input{
+  text-align: center;
+  height: 64px;
+  width: 1050px;
+  font-size: 24px;
+  border: none;
+}
+#inpt{
+border: none;
+  text-align: center;
+ 
+
+}
+#inpt button{
+  margin-top: 20px;
+  border: none;
+}
+
+.subscrib{
+  margin-top: 15px;
+  background-color: #C6E4D6;
+  height: 400px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.subin{
+  /* margin: 100px; */
+  
+  height: 235px;
+  width: 750px;
+  padding: 20px;
+}
+.subin h1,p{
+  text-align: center;
+}
+.emsm{
+  margin: 15px;
+  height: 56px;
+ 
+  display: flex;
+}
+.emsm input{
+  padding-left: 10px;
+  width:660px ;
+  height: 50px;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.emsm button{
+  height: 52px;
+  width: 100px;
+  border: none;
+  color: #FFFFFF;
+  background-color: #006A50;
+  border-top-right-radius:5px ;
+  border-bottom-right-radius: 5px;
+}
+
+.footban{
+  font-weight: 800;
+  text-align: center;
+}
+.footer{
+  
+  margin: 20 0px;
+  padding-top: 20px;
+  background-color:#FFFFFF ;
+  
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.social{
+  height: 50px;
+  width: 30px;
+  
+}
+.fb{
+  background-image: url(./assets/facebook.png);
+    background-repeat: no-repeat;
+      
+  
+  
+}
+.instra{
+  background-image: url(./assets/instagram.png);
+    background-repeat: no-repeat;
+    
+
+}
+.twet{
+  background-image: url(./assets/x.png);
+  background-repeat: no-repeat;
+  
+  
+
+}
+.so {
+  
+  display: flex;
+  justify-content: center;
+}
